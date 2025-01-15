@@ -1,0 +1,111 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set the background color and make the page center */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(image/girl-..jpg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    backdrop-filter: blur(5px);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Style the login container */
+.login-container {
+    background-image: url(image/girl-..jpg);
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+/* Style the header */
+h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: goldenrod;
+}
+
+/* Style input fields */
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+    ;
+}
+
+.input-group label {
+    display: block;
+    font-size: 14px;
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.input-group input:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+/* Style login button */
+.login-btn {
+    background-color: goldenrod;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+.login-btn:hover {
+    background-color: black;
+}
+.remember{
+    color: white;
+    float: left;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.forgot{
+    color: white;
+    float: right;
+    margin-bottom: 1px;
+    font-size: 14px;
+}
+p {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.dha{
+     color: #ffffff;
+     align-items: center;
+     margin-top: 40px;
+}
+
+p a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
